@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+
+body {
+
+    background: black;
+    overflow: hidden;
+    background-image: url("../images/20180617_190510.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+
+}
+
+.information {
+
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    color: white;
+
+}
+
+.information h2 {}
+
+.about-list {
+    list-style: none;
+}
+
+.about-list li {
+    margin-bottom: 10px;
+}
+
+.about-list li .title {
+    position: relative;
+    margin-right: 10px;
+    padding-bottom: 1px;
+    color: #a1a1a1;
+    font-weight: 700;
+}
+
+.about-list li .title:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #e1e1e1;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.about-list li .title:after {
+    position: absolute;
+    content: ':';
+    right: -8px;
+}
+
+.about-list li .value {
+    position: relative;
+}
+
+.about-list li .value:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.sanny {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.sa {
+    color: chartreuse;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.find {
+    font-size: 26px;
+    text-transform: capitalize;
+    line-height: inherit;
+    padding: 25px 60px;
+    border: 2px solid #ffff;
+    border-radius: 26px;
+    color: #24c61e;
+    font-weight: bold;
+    transition: all linear .4s;
+
+
+}
+
+.find:hover {
+    color: aqua;
+    border-radius: 57px;
+    transition: all linear .4s;
+    background-color: rgba(163, 209, 37, 0.83);
+    border-radius: 26px;
+    border: 2px solid rgba(0, 255, 177, 0.83);
+
+}
