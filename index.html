@@ -1,185 +1,362 @@
 <!DOCTYPE html>
-
-
-<!doctype html>
-<html>
+<html lang="en">
 
 <head>
-    <title>SHARIAR_HOSAIN_01</title>
+    <meta charset="UTF-8">
+    <title>Html_Tag_c1_02 Assiment</title>
     <link rel="icon" href="images/SHARIARHOSAIN.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link type="text/css" href="css/style.css" rel="stylesheet">
 
 </head>
 
-<body>
-    <div class="information">
-        <h2 style="    font-size: 53px;
-    color: paleturquoise;
-    margin-bottom: 14px;
-">Front-End developer</h2>
-        <p style="font-size: 22px;
-    width: 653px;margin-bottom: 12px;
-">I am <span class="sa">SHARIAR HOSAIN SANNY</span>. I am a simple , creative, enthusiastic and fun-loving person. I always like to create something on my own which is helpful for others.</p>
-        <p style="    font-size: 22px;
-    width: 670px;
-    margin-bottom: 24px;
-}">I have vast experience in HTML5, CSS3, Javascript, JQuery and on. I have already completed over 4 projecs </p>
+<body style=" background-color: #031321;">
+    <div class="container">
+        <header class="main">
+            <div class="table-wrapper">
+                <div class="btn-group" data-toggle="buttons">
+                    <label class="btn  active">
+                        <input type="radio" name="status" value="all" checked="checked">
+                        <div class="neone">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            all
 
 
-        <ul class="about-list">
-            <li> <span class="title">Name</span> <span class="value">Shariar Hosain</span> </li>
-            <li> <span class="title">Age</span> <span class="value">19 Years</span> </li>
-            <li> <span class="title">Email</span> <span class="value">shariarhosain131529@gmail.com</span> </li>
-        </ul>
+                        </div>
+                    </label>
+                    <label class="btn ">
+                        <input type="radio" name="status" value="active">
+                        <div class="neone">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            formating tag
 
-        <ul class="about-list" style="margin-bottom: 58px;">
-            <li> <span class="title">Phone</span> <span class="value">01793507171</span> </li>
-            <li> <span class="title">Address</span> <span class="value">Mirpur 14 </span> </li>
-            <li> <span class="title">Hobby</span> <span class="value">Cricket , Coding</span> </li>
-        </ul>
-        <a href="https://www.facebook.com/shariarhosainsanny/ " target="blank" class="find">find me</a>
+
+                        </div>
+                    </label>
+                    <label class="btn ">
+                        <input type="radio" name="status" value="inactive">
+                        <div class="neone">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            heading tag
+
+
+                        </div>
+
+                    </label>
+                    <label class="btn ">
+                        <input type="radio" name="status" value="expired">
+                        <div class="neone">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            list tag
+
+
+                        </div>
+                    </label>
+
+                    <label class="btn ">
+                        <input type="radio" name="status" value="ami">
+                        <div class="neone">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            empty tag
+
+
+                        </div>
+                    </label>
+
+                    <label class="btn ">
+                        <input type="radio" name="status" value="other">
+                        <div class="neone">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            other tag
+
+
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </header>
+
+
+
+
+
+        <section class="tabl">
+            <table class="table" border="1">
+                <thead>
+                    <tr style="text-align: center;">
+                        <th>Serial</th>
+                        <th>Tag </th>
+                        <th colspan="4"> Description</th>
+                        <th>example</th>
+
+                    </tr>
+                </thead>
+                <tbody style="text-transform: capitalize; text-align: center;">
+                    <tr data-status="active">
+                        <td>1</td>
+                        <td>bold </td>
+                        <td colspan="4"> Defines bold text</td>
+                        <td><b>kon ho tum</b></td>
+
+                    </tr>
+                    <tr data-status="active">
+                        <td>2</td>
+                        <td>italic</td>
+                        <td colspan="4"> Defines a part of text in an alternate voice or mood</td>
+                        <td><i>kon ho tum</i></td>
+
+                    </tr>
+                    <tr data-status="active">
+                        <td>3</td>
+                        <td>mark</td>
+                        <td colspan="4">Defines marked/highlighted text</td>
+                        <td><mark>kon ho tum</mark></td>
+                    </tr>
+                    <tr data-status="active">
+                        <td>4</td>
+                        <td>small</td>
+                        <td colspan="4"> Defines smaller text</td>
+                        <td><small>kon ho tum</small></td>
+                    </tr>
+                    <tr data-status="active">
+                        <td>5</td>
+                        <td>sup</td>
+                        <td colspan="4"> Defines superscripted text</td>
+                        <td>kon ho <sup>tum</sup></td>
+                    </tr>
+                    <tr data-status="active">
+                        <td>6</td>
+                        <td>sub</td>
+                        <td colspan="4">Defines subscripted text</td>
+                        <td>kon ho <sub>tum</sub></td>
+                    </tr>
+                    <tr data-status="other">
+                        <td>7</td>
+                        <td>hyperlink</td>
+                        <td colspan="4">Defines a hyperlink</td>
+                        <td><a href="#">kon ho tum</a></td>
+                    </tr>
+                    <tr data-status="other">
+                        <td>8</td>
+                        <td>audio</td>
+                        <td colspan="4"> Defines embedded sound content</td>
+                        <td><audio controls src="audio/তর ভালোবাসা উড়ে গেছে আমাকে _ tor valobasha ure geche _ hridoy ahmed shanto _ Heart Touching.mp3" type="audio/mpeg"></audio>
+                        </td>
+                    </tr>
+                    <tr data-status="other">
+                        <td>9</td>
+                        <td>iframe</td>
+                        <td colspan="4">Defines embedded video content</td>
+                        <td><iframe width="200" height="150" src="https://www.youtube.com/embed/fNFSK4EEZLc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                    </tr>
+                    <tr data-status="inactive">
+                        <td>10</td>
+                        <td>heading h1</td>
+                        <td colspan="4"> Defines HTML headings</td>
+                        <td>
+                            <h1>kon ho tum</h1>
+                        </td>
+                    </tr>
+                    <tr data-status="inactive">
+                        <td>11</td>
+                        <td>heading h2</td>
+                        <td colspan="4"> Defines HTML headings</td>
+                        <td>
+                            <h2>kon ho tum</h2>
+                        </td>
+                    </tr>
+                    <tr data-status="inactive">
+                        <td>12</td>
+                        <td>heading h3</td>
+                        <td colspan="4"> Defines HTML headings</td>
+                        <td>
+                            <h3>kon ho tum</h3>
+                        </td>
+                    </tr>
+                    <tr data-status="inactive">
+                        <td>13</td>
+                        <td>heading h4</td>
+                        <td colspan="4"> Defines HTML headings</td>
+                        <td>
+                            <h4>kon ho tum</h4>
+                        </td>
+                    </tr>
+                    <tr data-status="inactive">
+                        <td>14</td>
+                        <td>heading h5</td>
+                        <td colspan="4"> Defines HTML headings</td>
+                        <td>
+                            <h5>kon ho tum</h5>
+                        </td>
+                    </tr>
+                    <tr data-status="inactive">
+                        <td>15</td>
+                        <td>heading h6</td>
+                        <td colspan="4"> Defines HTML headings</td>
+                        <td>
+                            <h6>kon ho tum</h6>
+                        </td>
+                    </tr>
+                    <tr data-status="expired">
+                        <td>16</td>
+                        <td>list(ul)</td>
+                        <td colspan="4">Defines an unordered list</td>
+                        <td>
+                            <ul style="width: 33px">
+                                <li >Coffee</li>
+                                <li>Tea</li>
+                                <li>Milk</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr data-status="expired">
+                        <td>17</td>
+                        <td>list(0l)</td>
+                        <td colspan="4"> Defines an ordered list</td>
+                        <td>
+                            <ol style="width: 33px;">
+                                <li>Coffee</li>
+                                <li>Tea</li>
+                                <li>Milk</li>
+                            </ol>
+                        </td>
+                    </tr>
+                    <tr data-status="expired">
+                        <td>18</td>
+                        <td>list(li)</td>
+                        <td colspan="4"> Defines a list item</td>
+                        <td>
+                            <li value="100">Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                            <li>Water</li>
+                            <li>Juice</li>
+                            <li>Beer</li>
+                        </td>
+                    </tr>
+                    <tr data-status="other">
+                        <td>19</td>
+                        <td>form</td>
+                        <td colspan="4"> Defines an HTML form for user input</td>
+                        <td>
+                            <form action="/action_page.php" method="get">
+                                <label for="fname">First name:</label>
+                                <input type="text" id="fname" name="fname"><br><br>
+                                <label for="lname">Last name:</label>
+                                <input type="text" id="lname" name="lname"><br><br>
+                                <input type="submit" value="Submit">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr data-status="ami">
+                        <td>20</td>
+                        <td>img</td>
+                        <td colspan="4"> Defines an image</td>
+                        <td><img src="images/img_girl.jpg" alt="" height="50px" width="100px">
+                        </td>
+                    </tr>
+                    <tr data-status="ami">
+                        <td>21</td>
+                        <td>br</td>
+                        <td colspan="4">Defines a single line break</td>
+                        <td>kon ho <br> tum</td>
+                    </tr>
+                    <tr data-status="other">
+                        <td>22</td>
+                        <td>map</td>
+                        <td colspan="4"> Defines an image map</td>
+                        <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5942.075894585623!2d90.40312398156755!3d23.789728391574258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c70b72f1b8b1%3A0xfc87a1bc6699ed26!2sShikhbe%20Shobai!5e1!3m2!1sen!2sbd!4v1608920539568!5m2!1sen!2sbd" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></td>
+                    </tr>
+                    <tr data-status="other">
+                        <td>23</td>
+                        <td>table/td>
+                        <td colspan="4">Defines a table</td>
+                        <td>
+                            <table class="table" border="1">
+                                <tr>
+                                    <th>Month</th>
+                                    <th>Savings</th>
+                                </tr>
+                                <tr>
+                                    <td>January</td>
+                                    <td>$100</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr data-status="other">
+                        <td>24</td>
+                        <td>button</td>
+                        <td colspan="4"> Defines a clickable button</td>
+                        <td><button type="button">Click Me!</button></td>
+                    </tr>
+                    <tr data-status="other">
+                        <td>25</td>
+                        <td>footer</td>
+                        <td colspan="4"> Defines a footer for a document or section</td>
+                        <td>
+                            <footer>
+                                <p>Author: Hege Refsnes</p>
+                                <p><a href="https://www.facebook.com/shariarhosainsanny/"> copy_right:shariar_hosain</a></p>
+                            </footer>
+                        </td>
+
+
+                </tbody>
+            </table>
+        </section>
+        <footer style="color: white; text-align: center;">
+            <p>copyright &#10084; shariar_hosain </p>
+        </footer>
     </div>
-    <script src="js/sketch.js"></script>
+
+
+
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     <script>
-        // ----------------------------------------
-        // Particle
-        // ----------------------------------------
-
-        function Particle(x, y, radius) {
-            this.init(x, y, radius);
-        }
-
-        Particle.prototype = {
-
-            init: function(x, y, radius) {
-
-                this.alive = true;
-
-                this.radius = radius || 10;
-                this.wander = 0.15;
-                this.theta = random(TWO_PI);
-                this.drag = 0.92;
-                this.color = '#fff';
-
-                this.x = x || 0.0;
-                this.y = y || 0.0;
-
-                this.vx = 0.0;
-                this.vy = 0.0;
-            },
-
-            move: function() {
-
-                this.x += this.vx;
-                this.y += this.vy;
-
-                this.vx *= this.drag;
-                this.vy *= this.drag;
-
-                this.theta += random(-0.5, 0.5) * this.wander;
-                this.vx += sin(this.theta) * 0.1;
-                this.vy += cos(this.theta) * 0.1;
-
-                this.radius *= 0.96;
-                this.alive = this.radius > 0.5;
-            },
-
-            draw: function(ctx) {
-
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.radius, 0, TWO_PI);
-                ctx.fillStyle = this.color;
-                ctx.fill();
-            }
-        };
-
-        // ----------------------------------------
-        // Example
-        // ----------------------------------------
-
-        var MAX_PARTICLES = 280;
-        var COLOURS = ['#69D2E7', '#A7DBD8', '#E0E4CC', '#F38630', '#FA6900', '#FF4E50', '#F9D423'];
-
-        var particles = [];
-        var pool = [];
-
-        var demo = Sketch.create({
-            container: document.getElementById('container'),
-            retina: 'auto'
-        });
-
-        demo.setup = function() {
-
-            // Set off some initial particles.
-            var i, x, y;
-
-            for (i = 0; i < 20; i++) {
-                x = (demo.width * 0.5) + random(-100, 100);
-                y = (demo.height * 0.5) + random(-100, 100);
-                demo.spawn(x, y);
-            }
-        };
-
-        demo.spawn = function(x, y) {
-
-            var particle, theta, force;
-
-            if (particles.length >= MAX_PARTICLES)
-                pool.push(particles.shift());
-
-            particle = pool.length ? pool.pop() : new Particle();
-            particle.init(x, y, random(5, 40));
-
-            particle.wander = random(0.5, 2.0);
-            particle.color = random(COLOURS);
-            particle.drag = random(0.9, 0.99);
-
-            theta = random(TWO_PI);
-            force = random(2, 8);
-
-            particle.vx = sin(theta) * force;
-            particle.vy = cos(theta) * force;
-
-            particles.push(particle);
-        };
-
-        demo.update = function() {
-
-            var i, particle;
-
-            for (i = particles.length - 1; i >= 0; i--) {
-
-                particle = particles[i];
-
-                if (particle.alive) particle.move();
-                else pool.push(particles.splice(i, 1)[0]);
-            }
-        };
-
-        demo.draw = function() {
-
-            demo.globalCompositeOperation = 'lighter';
-
-            for (var i = particles.length - 1; i >= 0; i--) {
-                particles[i].draw(demo);
-            }
-        };
-
-        demo.mousemove = function() {
-
-            var particle, theta, force, touch, max, i, j, n;
-
-            for (i = 0, n = demo.touches.length; i < n; i++) {
-
-                touch = demo.touches[i], max = random(1, 4);
-                for (j = 0; j < max; j++) {
-                    demo.spawn(touch.x, touch.y);
+        $(document).ready(function() {
+            $(".btn-group .btn").click(function() {
+                var inputValue = $(this).find("input").val();
+                if (inputValue != 'all') {
+                    var target = $('table tr[data-status="' + inputValue + '"]');
+                    $("table tbody tr").not(target).hide();
+                    target.fadeIn();
+                } else {
+                    $("table tbody tr").fadeIn();
                 }
-
+            });
+            // Changing the class of status label to support Bootstrap 4
+            var bs = $.fn.tooltip.Constructor.VERSION;
+            var str = bs.split(".");
+            if (str[0] == 4) {
+                $(".label").each(function() {
+                    var classStr = $(this).attr("class");
+                    var newClassStr = classStr.replace(/label/g, "badge");
+                    $(this).removeAttr("class").addClass(newClassStr);
+                });
             }
-        };
-
+        });
     </script>
-</body>
 
-</html>
+</body></html>

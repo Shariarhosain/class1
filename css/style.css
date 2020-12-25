@@ -1,119 +1,141 @@
 * {
     margin: 0;
     padding: 0;
-
-
 }
-
-
 
 body {
-
-    background: black;
-    overflow: hidden;
-    background-image: url("../images/20180617_190510.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right;
-
-}
-
-.information {
-
-    position: absolute;
-    top: 50px;
-    left: 30px;
-    color: white;
-
-}
-
-.information h2 {}
-
-.about-list {
-    list-style: none;
-}
-
-.about-list li {
-    margin-bottom: 10px;
-}
-
-.about-list li .title {
-    position: relative;
-    margin-right: 10px;
-    padding-bottom: 1px;
-    color: #a1a1a1;
-    font-weight: 700;
-}
-
-.about-list li .title:before {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    background: #e1e1e1;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-}
-
-.about-list li .title:after {
-    position: absolute;
-    content: ':';
-    right: -8px;
-}
-
-.about-list li .value {
-    position: relative;
-}
-
-.about-list li .value:before {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-}
-
-.sanny {
-    display: grid;
+    /*
+    display: flex;
     justify-content: center;
     align-items: center;
-
-
+*/
+    height: 100vh;
 }
 
-.sa {
-    color: chartreuse;
-
-
-}
-
+a:hover,
 a {
     text-decoration: none;
 }
 
-.find {
-    font-size: 26px;
-    text-transform: capitalize;
-    line-height: inherit;
-    padding: 25px 60px;
-    border: 2px solid #ffff;
-    border-radius: 26px;
-    color: #24c61e;
-    font-weight: bold;
-    transition: all linear .4s;
+.main {
+    margin-top: 40px;
+/*    margin-left: 60px;*/
+
+}
+
+.main .neone {
+text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    /*    transition: .2s;*/
+}
+
+.neone:hover {
+    color: #255784;
+    background-color: #2196f3;
+    box-shadow: 0 0 10px #2196f3,
+        0 0 40px #2196f3,
+        0 0 80px #2196f3;
+    transition-delay: 1s;
+
+}
+
+.neone span {
+    position: absolute;
+    display: block;
+}
+
+.main .neone span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(90deg, transparent, #2196f3);
+
+}
+
+.main .neone:hover span:nth-child(1) {
+
+    left: 100%;
+    transition: 1s;
 
 
 }
 
-.find:hover {
-    color: aqua;
-    border-radius: 57px;
-    transition: all linear .4s;
-    background-color: rgba(163, 209, 37, 0.83);
-    border-radius: 26px;
-    border: 2px solid rgba(0, 255, 177, 0.83);
+.main .neone span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(270deg, transparent, #2196f3);
 
+}
+
+.main .neone:hover span:nth-child(3) {
+
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+
+
+}
+
+.main .neone span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background-image: linear-gradient(180deg, transparent, #2196f3);
+
+}
+
+.main .neone:hover span:nth-child(2) {
+
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+
+
+}
+
+.main .neone span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background-image: linear-gradient(360deg, transparent, #2196f3);
+
+}
+
+.main .neone:hover span:nth-child(4) {
+
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: .75s;
+
+
+}
+.table1{
+    padding-top: 100px;
+}
+.table th,td{
+   color: aliceblue;
+}
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance:none;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+.tabl{
+margin-top: 50px;
 }
